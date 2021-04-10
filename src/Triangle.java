@@ -1,7 +1,7 @@
 public class Triangle extends Shape{
     double side1 = 1.0, side2 = 1.0, side3 = 1.0;
 
-    public Triangle(){
+    public Triangle(String s1, String s2, double s3, double s4, double s5){
 
     }
 
@@ -53,8 +53,4 @@ public class Triangle extends Shape{
         return super.toString() + "\n dien tich: " + getAria() + "\n chu vi: " + getPerimeter();
     }
 
-    public static void main(String[] args) {
-        Triangle a = new Triangle();
-        System.out.println(a.toString());
-    }
 }
